@@ -6,19 +6,14 @@
   "authors": [
     "Mr_Zombii"
   ],
-  "entrypoints": {
-    "preInit": [
-      "org.example.exmod.ExampleModPreinit"
-    ],
-    "init": [
-      "org.example.exmod.ExampleMod"
-    ]
-  },
-  "mixins": [
-    "example.mixins.json"
-  ],
+  "meta": {
+    "languageAdapters": {
+      "kotlin": "dev.crmodders.puzzle.loader.lang.LuaLanguageAdapter"
+    }
+  }
   "dependencies": {
-    "cosmic-reach": ">=0.1.42"
+    "cosmic-reach": ">=0.1.42",
+    "puzzle-loader": ">=1.0.0"
   },
-  "accessManipulator": "example_mod.manipulator"
+  "accessManipulator": "puzzle-language-lua.manipulator"
 }
