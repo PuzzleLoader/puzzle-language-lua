@@ -8,12 +8,14 @@
   ],
   "meta": {
     "languageAdapters": {
-      "kotlin": "dev.crmodders.puzzle.loader.lang.LuaLanguageAdapter"
+      "lua": "com.github.puzzle.loader.lang.impl.LuaLanguageAdapter"
     }
-  }
+  },
   "dependencies": {
-    "cosmic-reach": ">=0.1.42",
+    "cosmic-reach": ">=0.1.43",
     "puzzle-loader": ">=1.0.0"
   },
-  "accessManipulator": "puzzle-language-lua.manipulator"
+  "mixins": [
+    "puzzle-lua.mixins.json"
+  ]
 }
