@@ -42,6 +42,6 @@ Remember to the add a dependency entry to your `puzzle.mod.json` file:
 ```
 
 ## How to test/build
-For testing in the dev env, you can use the `gradle runLoader` task
+For testing in the dev env, you can use the `gradle runClient` task
 
 For building, the usual `gradle buildBundleJar` task can be used. The output will be in the `build/libs/` folder
