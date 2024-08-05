@@ -10,13 +10,6 @@ repositories {
     maven { url "https://maven.squiddev.cc" }
 }
 
-tasks.register("runLoader", JavaExec) {
-    group = "loader"
-
-    classpath = sourceSets.main.runtimeClasspath
-    mainClass = "com.github.puzzle.loader.launch.Piece"
-}
-
 dependencies {
     bundle("org.luaj:luaj-jse:$luaj_version")
 }
