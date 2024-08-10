@@ -1,7 +1,7 @@
 package com.github.puzzle.loader.lua.globals;
 
 import finalforeach.cosmicreach.chat.Chat;
-import finalforeach.cosmicreach.entities.Player;
+import finalforeach.cosmicreach.entities.player.Player;
 import finalforeach.cosmicreach.gamestates.InGame;
 import finalforeach.cosmicreach.world.World;
 

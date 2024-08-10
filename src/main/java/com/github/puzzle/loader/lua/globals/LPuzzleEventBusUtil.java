@@ -1,16 +1,11 @@
 package com.github.puzzle.loader.lua.globals;
 
 import com.github.puzzle.core.PuzzleRegistries;
-import com.github.puzzle.core.resources.ResourceLocation;
-import com.github.puzzle.game.block.DataModBlock;
-import com.github.puzzle.game.factories.IFactory;
 import com.github.puzzle.loader.launch.Piece;
 import com.llamalad7.mixinextras.lib.apache.commons.tuple.ImmutablePair;
 import com.llamalad7.mixinextras.lib.apache.commons.tuple.Pair;
 import org.greenrobot.eventbus.Subscribe;
-import org.luaj.vm2.LuaFunction;
 import org.luaj.vm2.LuaValue;
-import org.luaj.vm2.lib.jse.CoerceJavaToLua;
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.Label;
 import org.objectweb.asm.MethodVisitor;

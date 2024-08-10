@@ -12,8 +12,8 @@
     }
   },
   "dependencies": {
-    "cosmic-reach": ">=0.1.43",
-    "puzzle-loader": ">=1.0.0"
+    "cosmic-reach": ">=0.1.44",
+    "puzzle-loader": ">=1.1.0"
   },
   "mixins": [
     "puzzle-lua.mixins.json"

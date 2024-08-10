@@ -26,8 +26,7 @@ public class PuzzleLua implements ModInitializer {
     @Override
     public void onInit() {
         var function = CommandManager.literal("function");
-        function
-                .then(CommandManager.argument("path", StringArgumentType.greedyString())
+        function.then(CommandManager.argument("path", StringArgumentType.greedyString())
                         .executes(context -> {
                             String path = StringArgumentType.getString(context, "path");
                             if (path.endsWith(".lua")) runLua(context, path);

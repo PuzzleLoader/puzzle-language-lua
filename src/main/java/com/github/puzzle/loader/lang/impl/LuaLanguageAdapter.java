@@ -97,7 +97,7 @@ public class LuaLanguageAdapter implements LanguageAdapter {
 
             if (usableConstructor == null) throw new LanguageAdapterException("Cannot find usable variant of \"" + aClass.getName() + "\" for lua");
             T obj = newInstance(variantClazz1);
-            Reflection.setField(obj, "value", chunk);
+            Reflection.setFieldContents(obj, "value", chunk);
 //            return usableConstructor.newInstance(chunk);
             return obj;
         } catch (Exception e) {
