@@ -17,7 +17,7 @@ repositories {
 
 Step 2: Add Flux to your dependencies using the text below
 ```
-mod "com.github.PuzzleLoader:puzzle-language-lua:1.0.0"
+mod "com.github.PuzzleLoader:puzzle-language-lua:1.0.1"
 ```
 
 ### Adapter
